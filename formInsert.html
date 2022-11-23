@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fomulário de cadastro de PC</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css"  href="estilo.css" />
+</head>
+<body>
+
+<nav id="menu">
+	<ul>
+		<li><a href="formInsert.html">formInsert</a></li>
+		<li><a href="menu.php">menu</a></li>
+		<li><a href="login.php">login</a></li>
+		<li><a href="pagina.php">pagina</a></li>
+	</ul>
+</nav><br><br>
+
+	<h1>Cadastro de PC</h1>
+	<form method="POST" action="operations.php?q=insert">
+		<label>Gabinete:</label><input type="text" name="Gabinete"><br><br>
+		<label>Monitor:</label><input type="text" name="Monitor"><br><br>
+		<label>Perifi:</label><input type="text" name="Perifi"><br><br>
+		<label>Tipo_do_PC:</label>
+		<select name="Tipo do PC">
+			<option value="PC-Desmontado">PC-Desmontado</option>
+			<option value="PC-Montado">PC-Montado</option>
+			<option value="PC-Pornto">PC-Pronto</option>
+		</select> <br><br>
+		<input type="submit" value="Cadastrar"><br><br>
+	</form>
+</body>
+</html>
