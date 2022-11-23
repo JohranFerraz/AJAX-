@@ -1,0 +1,37 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu{
+    background-color: rgb(18, 18, 19);
+}
+
+#menu ul{
+    max-width: 900px;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(18, 18, 19);
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+#menu ul li a:hover{
+    background-color: rgb(47, 137, 221);
+
+}
+
+#menu ul li:last-child a{
+    float: right;
+    background-color: rgb(47, 137, 221);
+}
